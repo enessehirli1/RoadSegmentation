@@ -29,7 +29,7 @@ class Config:
     # Training parameters
     LEARNING_RATE = 1e-3
     BATCH_SIZE = 8
-    NUM_EPOCHS = 100
+    NUM_EPOCHS = 1
     NUM_WORKERS = 2
     PIN_MEMORY = True
     
