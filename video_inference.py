@@ -161,11 +161,11 @@ def process_video(video_path, model_path, output_path=None, show_live=True):
             # Write to output video (if specified)
             if output_path:
                 out.write(combined)
-            """
+            
             # Her 10 frame'de bir kullanıcıya devam etmek isteyip istemediğini sor
             if show_live and frame_count % 10 == 0:
                 plt.draw()
-            """
+            
     # Kaynakları temizle
     cap.release()
     if output_path:
@@ -175,12 +175,12 @@ def process_video(video_path, model_path, output_path=None, show_live=True):
         plt.ioff()
         plt.show()
     
-    print(f"\Total {frame_count} frame processed.")
+    print(f"Total {frame_count} frame processed.")
 
 # Ana fonksiyon
 if __name__ == "__main__":
-    video_path = "challanges_video/highway_test.mp4"
-    model_path = "checkpoints/last_best_model.pth.tar"
+    video_path = "challanges_video/video.mp4"
+    model_path = "checkpoints/best_model.pth.tar"
     output_path = "output_segmentation.mp4"  # output video path
 
     process_video(video_path, model_path, output_path, show_live=True)

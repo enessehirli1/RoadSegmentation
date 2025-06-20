@@ -16,7 +16,8 @@ saved_images/*
 plots/*
 
 # Klasör yapısını korumak için .gitkeep dosyalarını hariç tut
-!*/.gitkeep
+!**/.gitkeep
+
 # Python cache dosyaları
 __pycache__/
 *.pyc
@@ -37,7 +38,6 @@ __pycache__/
 # Resim dosyalarını ignore et
 *.png
 *.jpg
-*.jpeg
 *.gif
 *.bmp
 *.tiff
