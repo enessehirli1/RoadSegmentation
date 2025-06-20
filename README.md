@@ -1,6 +1,6 @@
 # Road Segmentation with Improved U-Net
 
-This project is designed for road segmentation using an improved U-Net architecture. The model detects roads in images and generates segmentation maps.
+This project is designed for road segmentation using an improved U-Net architecture. 
 
 ## 🎯 Demo Results
 
