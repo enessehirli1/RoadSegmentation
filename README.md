@@ -10,8 +10,13 @@ This project is designed for road segmentation using an improved U-Net architect
   <em>Road segmentation results: Original image (left), Segmentation mask (center), Overlay result (right)</em>
 </div>
 
-![Road Segmentation Demo](assets/gifs/demo.gif)
-*Real-time road segmentation demonstration*
+<div align="center">
+  <img src="assets/gifs/demo.gif" alt="Road Segmentation Demo GIF" width="800">
+  <br>
+  <em>Real-time road segmentation demonstration</em>
+</div>
+
+
 
 ## 🚀 Features
 
