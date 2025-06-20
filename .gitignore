@@ -1,3 +1,39 @@
+# Dataset ve büyük dosyalar
+data/train_images/*
+data/train_masks/*
+data/val_images/*
+data/val_masks/*
+
+# Checkpoint dosyaları
+checkpoints/*
+
+# Görsel dosyalar
+challanges_image/*
+challanges_video/*
+saved_images/*
+
+# Plot dosyaları (isteğe bağlı)
+plots/*
+
+# Klasör yapısını korumak için .gitkeep dosyalarını hariç tut
+!*/.gitkeep
+# Python cache dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model dosyaları (büyük olabilir)
+*.h5
+*.pkl
+*.pth
+*.ckpt
+
 # Resim dosyalarını ignore et
 *.png
 *.jpg
@@ -8,6 +44,3 @@
 *.webp
 *.mp4
 *.tar
-
-#ignore the folders
-!*/
