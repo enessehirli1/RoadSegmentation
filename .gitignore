@@ -1,0 +1,10 @@
+# Resim dosyalarını ignore et
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.mp4
+*.tar
