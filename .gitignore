@@ -8,3 +8,6 @@
 *.webp
 *.mp4
 *.tar
+
+#ignore the folders
+!*/
