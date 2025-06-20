@@ -38,7 +38,6 @@ __pycache__/
 # Resim dosyalarını ignore et
 *.png
 *.jpg
-*.gif
 *.bmp
 *.tiff
 *.webp
