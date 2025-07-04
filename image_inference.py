@@ -193,7 +193,7 @@ def test_multiple_images(image_paths, model_path):
 
 if __name__ == "__main__":
     # Model path
-    model_path = "checkpoints/final_best_model.pth.tar"
+    model_path = "checkpoints/best_model.pth.tar"
     test_images = [
         "challanges_image/test_image1.jpg",
         "challanges_image/test_image2.jpg", 
