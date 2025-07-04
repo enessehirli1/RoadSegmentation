@@ -81,7 +81,7 @@ def get_transforms():
             A.VerticalFlip(p=1.0),
             A.RandomRotate90(p=1.0),
             A.Transpose(p=1.0),
-        ], p=0.6),
+        ], p=0.4),
         
         A.OneOf([
             A.Rotate(limit=20, p=1.0),
@@ -100,7 +100,7 @@ def get_transforms():
             A.RandomBrightnessContrast(brightness_limit=0.3, contrast_limit=0.3, p=1.0),
             A.CLAHE(clip_limit=3.0, tile_grid_size=(8, 8), p=1.0),
             A.RandomGamma(gamma_limit=(70, 130), p=1.0),
-        ], p=0.4),
+        ], p=0.6),
         
         A.OneOf([
             A.HueSaturationValue(hue_shift_limit=20, sat_shift_limit=30, val_shift_limit=20, p=1.0),

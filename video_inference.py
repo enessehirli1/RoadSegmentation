@@ -180,7 +180,7 @@ def process_video(video_path, model_path, output_path=None, show_live=True):
 # Ana fonksiyon
 if __name__ == "__main__":
     video_path = "challanges_video/t_b.mp4"
-    model_path = "checkpoints/best_model.pth.tar"
+    model_path = "checkpoints/final_best_model.pth.tar"
     output_path = "output_segmentation.mp4"  # output video path
 
     process_video(video_path, model_path, output_path, show_live=True)
