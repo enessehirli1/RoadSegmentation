@@ -200,8 +200,7 @@ if __name__ == "__main__":
         "challanges_image/test_image3.jpg",
         "challanges_image/test_image4.jpg",
         "challanges_image/test_image5.jpg",
-        "challanges_image/test_image6.jpg",
-        "challanges_image/test_image7.jpg"
+        "challanges_image/test_image6.jpg"
     ]
     
     print("\nTestring multiple images with the segmentation model...")
